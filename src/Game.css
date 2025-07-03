@@ -1,0 +1,41 @@
+/* Styles for Clear The Points game */
+
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.controls {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.board {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid #333;
+}
+
+.circle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #acacac;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #333;
+  color: #fff;
+  user-select: none;
+  font-weight: bold;
+}
